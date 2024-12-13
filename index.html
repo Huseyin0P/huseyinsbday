@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Birthday Invitation</title>
+</head>
+<body>
+    <div class="header">
+        <h1>You're Invited</h1>
+        <h3>to Huseyin's Birthday</h3>
+    </div>
+    <form id="my-form" action="https://script.google.com/macros/s/AKfycbzXGgF9v7ySQ_8f9GhYUoQCPXMis_mMLoBo6WJ7wWKoo2At4QmriwsM9juGGi1uwgwG/exec">
+        <br><br>
+        <div class="info">
+            <h3>The birthday party will happen 3pm at 12/15/2024(Sunday), and it will be located in 7003 Park Hill Trail, Sachse, TX</h3>
+        </div>
+        <br><br>
+        <label for="Name">Name</label><br><br>
+        <input name="Name" type="text" placeholder="Name" required><br><br>
+        <label for="Coming">Will you be coming?</label><br><br>
+        <input type="radio" name="Coming" value="Yes" required><label for="yes">Yes</label><br><br>
+        <input type="radio" name="Coming" value="No" required><label for="no">No</label><br><br><br>
+        <button type="submit" class="submit">Send</button>
+    </form>
+    <script src="post.js"></script>
+</body>
+</html>

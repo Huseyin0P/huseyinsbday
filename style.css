@@ -1,0 +1,50 @@
+*{
+    font-family: sans-serif;
+}
+body{
+    animation: bg_anim 9s infinite;
+    color: #fff;
+    text-align: center;
+}
+
+.submit{
+
+    border-radius: 7px;
+    border: none;
+    background-color: green;
+    height: 90px;
+    width: 200px;
+    font-size: 50px;
+    color: white;
+}
+.submit:hover{
+    animation: sub_anim 5s infinite;
+}
+
+
+@keyframes sub_anim {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: rgb(21, 255, 0);
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+@keyframes bg_anim {
+    0%{
+        background-color: rgb(35, 38, 56);
+    }
+    25%{
+        background-color: rgb(65, 53, 39);
+    }
+    50%{
+        background-color: rgb(36, 56, 35);
+    }
+    100%{
+        background-color: rgb(35, 38, 56);
+    }
+}
